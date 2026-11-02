@@ -1,0 +1,48 @@
+{
+  "boundary_hash": "48fa0c7855e7dd7b1d35b5856c1aafdcb88d221630bc05c4dc5a17cb1ff306fe",
+  "parcel_ids": [
+    "65079661510030000",
+    "65130905010020000",
+    "65130905010030000",
+    "65130905010050000",
+    "65130905010060000",
+    "65146334010100000",
+    "65146334010140000"
+  ],
+  "run_utc": "2026-11-02T05:46:30.943086+00:00",
+  "source": "USGS/3DEP/10m_collection",
+  "source_image_ids": [
+    "USGS_13_n33w097"
+  ],
+  "integration_grid_crs": "EPSG:26914",
+  "integration_grid_transform": [
+    30,
+    0,
+    719040.0,
+    0,
+    -30,
+    3613710.0
+  ],
+  "statistics_scale_m": 10,
+  "raster": "terrain_30m.tif",
+  "integration_resolution_m": 30,
+  "surroundings": {
+    "buffer_distance_m": 1609.344,
+    "buffer_includes_parcels": true,
+    "ring_excludes_parcels": true,
+    "statistics_grid_m": 10,
+    "raster_grid_m": 10,
+    "crs": "EPSG:26914",
+    "transform": [
+      10,
+      0,
+      717450.0,
+      0,
+      -10,
+      3615310.0
+    ],
+    "raster": "terrain_one_mile_10m.tif",
+    "summary": "terrain_surroundings_summary.csv",
+    "slope_classes": "slope_classes_surroundings.csv"
+  }
+}

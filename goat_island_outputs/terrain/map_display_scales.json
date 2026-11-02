@@ -1,0 +1,25 @@
+{
+  "reference": "valid pixels inside seven selected parcels",
+  "reference_raster": "terrain_one_mile_10m.tif",
+  "reference_grid_m": 10.0,
+  "elevation_percentiles": [
+    2,
+    98
+  ],
+  "elevation_min_m": 110.15527557373046,
+  "elevation_max_m": 118.73333099365234,
+  "slope_class_edges_deg": [
+    0,
+    2,
+    5,
+    10,
+    90
+  ],
+  "slope_class_labels": [
+    "0\u20132\u00b0",
+    "2\u20135\u00b0",
+    "5\u201310\u00b0",
+    "\u226510\u00b0"
+  ],
+  "data_modified": false
+}

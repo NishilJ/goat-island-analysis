@@ -1,0 +1,9 @@
+zone,slope_range_deg,area_acres,pct_valid_slope_area
+Full one-mile buffer (includes parcels),0-2,5753.510233532423,75.9259217521443
+Full one-mile buffer (includes parcels),2-5,1019.3887170518623,13.452314295855386
+Full one-mile buffer (includes parcels),5-10,534.2011071716805,7.049559280634814
+Full one-mile buffer (includes parcels),10-90,270.69432494532543,3.572204671639172
+Surrounding one-mile ring (excludes parcels),0-2,5401.767785120297,76.17388263000996
+Surrounding one-mile ring (excludes parcels),2-5,960.8833131741984,13.550047989935292
+Surrounding one-mile ring (excludes parcels),5-10,491.5233962018916,6.931294898555688
+Surrounding one-mile ring (excludes parcels),10-90,237.19015522113017,3.3447744818978453
