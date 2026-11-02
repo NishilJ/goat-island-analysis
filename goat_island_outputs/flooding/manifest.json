@@ -1,0 +1,55 @@
+{
+  "boundary_hash": "48fa0c7855e7dd7b1d35b5856c1aafdcb88d221630bc05c4dc5a17cb1ff306fe",
+  "parcel_ids": [
+    "65079661510030000",
+    "65130905010020000",
+    "65130905010030000",
+    "65130905010050000",
+    "65130905010060000",
+    "65146334010100000",
+    "65146334010140000"
+  ],
+  "run_utc": "2026-11-02T05:53:37.278619+00:00",
+  "source": "projects/stalwart-glider-279103/assets/nfhl_flood_zones",
+  "effective_date": "unverified",
+  "mapped_coverage_pct": 100.0,
+  "source_properties": [
+    "AR_REVERT",
+    "VELOCITY",
+    "VEL_UNIT",
+    "DFIRM_ID",
+    "FLD_AR_ID",
+    "BFE_REVERT",
+    "SFHA_TF",
+    "LEN_UNIT",
+    "VERSION_ID",
+    "DUAL_ZONE",
+    "SOURCE_CIT",
+    "STUDY_TYP",
+    "FLD_ZONE",
+    "V_DATUM",
+    "DEP_REVERT",
+    "AR_SUBTRV",
+    "STATIC_BFE",
+    "ZONE_SUBTY",
+    "DEPTH",
+    "system:index"
+  ],
+  "rasterization_rule": "SFHA_TF = T; outside mapped FEMA coverage remains unknown",
+  "map_detail": {
+    "fields": [
+      "FLD_ZONE",
+      "ZONE_SUBTY"
+    ],
+    "classes": [
+      "AE \u2014 mapped floodway",
+      "AE \u2014 other mapped area",
+      "X \u2014 0.2% annual-chance flood hazard",
+      "X \u2014 minimal flood hazard",
+      "X \u2014 reduced risk due to levee"
+    ],
+    "floodway_style": "diagonal hatch over blue fill",
+    "detail_table": "flood_zone_subtype_areas.csv",
+    "note": "No subtypes inferred where source fields are absent or unspecified; effective date unchanged."
+  }
+}

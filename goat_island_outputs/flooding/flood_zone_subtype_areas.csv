@@ -1,0 +1,11 @@
+study_zone,FLD_ZONE,ZONE_SUBTY,map_class,area_acres,pct_study_zone
+Seven selected parcels,AE,,AE — other mapped area,106.24593587458219,21.835365826042775
+Seven selected parcels,AE,FLOODWAY,AE — mapped floodway,370.9137828300496,76.22915710936944
+Seven selected parcels,X,0.2 PCT ANNUAL CHANCE FLOOD HAZARD,X — 0.2% annual-chance flood hazard,2.879486393141953,0.5917839423014469
+Seven selected parcels,X,AREA OF MINIMAL FLOOD HAZARD,X — minimal flood hazard,6.538105861981441,1.3436931222882966
+Seven selected parcels,X,AREA WITH REDUCED FLOOD RISK DUE TO LEVEE,X — reduced risk due to levee,0.0,0.0
+Full one-mile buffer (includes parcels),AE,,AE — other mapped area,2121.2264835635324,27.981006655343734
+Full one-mile buffer (includes parcels),AE,FLOODWAY,AE — mapped floodway,3563.3521553791884,47.00402392086778
+Full one-mile buffer (includes parcels),X,0.2 PCT ANNUAL CHANCE FLOOD HAZARD,X — 0.2% annual-chance flood hazard,96.89244305519576,1.2781040190604172
+Full one-mile buffer (includes parcels),X,AREA OF MINIMAL FLOOD HAZARD,X — minimal flood hazard,768.049382350271,10.13130613147557
+Full one-mile buffer (includes parcels),X,AREA WITH REDUCED FLOOD RISK DUE TO LEVEE,X — reduced risk due to levee,1031.4272469284108,13.605512133868443
