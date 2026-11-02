@@ -1,0 +1,73 @@
+{
+  "run_utc": "2026-11-02T05:36:28.300780+00:00",
+  "year": 2024,
+  "boundary_source": "Park_Parcels/Park_Parcles.shp; seven project-confirmed Parcel_Num values",
+  "parcel_ids": [
+    "65079661510030000",
+    "65130905010020000",
+    "65130905010030000",
+    "65146334010140000",
+    "65130905010050000",
+    "65146334010100000",
+    "65130905010060000"
+  ],
+  "land_cover": {
+    "asset": "projects/sat-io/open-datasets/USGS/ANNUAL_NLCD/LANDCOVER",
+    "metadata": {
+      "color_interpretation": "Palette",
+      "data_type": "Byte",
+      "inferred_kind": "categorical",
+      "num_bands": 1,
+      "product": "Annual NLCD Land Cover",
+      "version": "C1V2",
+      "xsize": 160000,
+      "year": 2024,
+      "ysize": 105000
+    },
+    "projection": {
+      "type": "Projection",
+      "wkt": "PROJCS[\"AEA        WGS84\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH], \n    AUTHORITY[\"EPSG\",\"4326\"]], \n  PROJECTION[\"Albers_Conic_Equal_Area\"], \n  PARAMETER[\"central_meridian\", -96.0], \n  PARAMETER[\"latitude_of_origin\", 23.0], \n  PARAMETER[\"standard_parallel_1\", 29.5], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"standard_parallel_2\", 45.5], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+      "transform": [
+        30,
+        0,
+        -2415585,
+        0,
+        -30,
+        3314805
+      ],
+      "crs": "PROJCS[\"AEA        WGS84\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH], \n    AUTHORITY[\"EPSG\",\"4326\"]], \n  PROJECTION[\"Albers_Conic_Equal_Area\"], \n  PARAMETER[\"central_meridian\", -96.0], \n  PARAMETER[\"latitude_of_origin\", 23.0], \n  PARAMETER[\"standard_parallel_1\", 29.5], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"standard_parallel_2\", 45.5], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]"
+    }
+  },
+  "impervious": {
+    "asset": "projects/sat-io/open-datasets/USGS/ANNUAL_NLCD/FRACTIONAL_IMPERVIOUS_SURFACE",
+    "metadata": {
+      "year": 2024
+    },
+    "projection": {
+      "type": "Projection",
+      "wkt": "PROJCS[\"AEA        WGS84\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH], \n    AUTHORITY[\"EPSG\",\"4326\"]], \n  PROJECTION[\"Albers_Conic_Equal_Area\"], \n  PARAMETER[\"central_meridian\", -96.0], \n  PARAMETER[\"latitude_of_origin\", 23.0], \n  PARAMETER[\"standard_parallel_1\", 29.5], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"standard_parallel_2\", 45.5], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
+      "transform": [
+        30,
+        0,
+        -2415585,
+        0,
+        -30,
+        3314805
+      ],
+      "crs": "PROJCS[\"AEA        WGS84\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH], \n    AUTHORITY[\"EPSG\",\"4326\"]], \n  PROJECTION[\"Albers_Conic_Equal_Area\"], \n  PARAMETER[\"central_meridian\", -96.0], \n  PARAMETER[\"latitude_of_origin\", 23.0], \n  PARAMETER[\"standard_parallel_1\", 29.5], \n  PARAMETER[\"false_easting\", 0.0], \n  PARAMETER[\"false_northing\", 0.0], \n  PARAMETER[\"standard_parallel_2\", 45.5], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]"
+    }
+  },
+  "area_method": "pixelArea sums on each product native grid; weighted boundary pixels; percentages use valid raster area",
+  "naip": {
+    "year": 2022,
+    "acquisition_dates": [
+      "2022-07-04"
+    ],
+    "image_ids": [
+      "m_3209619_se_14_060_20220704",
+      "m_3209620_sw_14_060_20220704",
+      "m_3209627_ne_14_060_20220704",
+      "m_3209628_nw_14_060_20220704"
+    ]
+  }
+}
