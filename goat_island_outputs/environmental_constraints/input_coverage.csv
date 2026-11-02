@@ -1,0 +1,5 @@
+input,valid_parcel_cells,pct_terrain_parcel_cells
+NDVI,2183,100.0
+NLCD scored classes,2183,100.0
+FEMA mapped coverage,2183,100.0
+Common model area,2183,100.0

@@ -1,0 +1,184 @@
+{
+  "boundary_hash": "48fa0c7855e7dd7b1d35b5856c1aafdcb88d221630bc05c4dc5a17cb1ff306fe",
+  "parcel_ids": [
+    "65079661510030000",
+    "65130905010020000",
+    "65130905010030000",
+    "65130905010050000",
+    "65130905010060000",
+    "65146334010100000",
+    "65146334010140000"
+  ],
+  "run_utc": "2026-11-02T06:29:05.142152+00:00",
+  "grid_resolution_m": 30.0,
+  "grid_crs": "EPSG:26914",
+  "grid_transform": [
+    30.0,
+    0.0,
+    719040.0,
+    0.0,
+    -30.0,
+    3613800.0
+  ],
+  "inputs": {
+    "vegetation": {
+      "run_utc": "2026-11-02T00:31:50.710531+00:00",
+      "source": "COPERNICUS/S2_SR_HARMONIZED",
+      "boundary_hash": "48fa0c7855e7dd7b1d35b5856c1aafdcb88d221630bc05c4dc5a17cb1ff306fe"
+    },
+    "terrain": {
+      "run_utc": "2026-11-02T05:46:30.943086+00:00",
+      "source": "USGS/3DEP/10m_collection",
+      "boundary_hash": "48fa0c7855e7dd7b1d35b5856c1aafdcb88d221630bc05c4dc5a17cb1ff306fe"
+    },
+    "flooding": {
+      "run_utc": "2026-11-02T05:53:37.278619+00:00",
+      "source": "projects/stalwart-glider-279103/assets/nfhl_flood_zones",
+      "boundary_hash": "48fa0c7855e7dd7b1d35b5856c1aafdcb88d221630bc05c4dc5a17cb1ff306fe"
+    },
+    "land_cover": {
+      "run_utc": "2026-11-02T05:36:28.300780+00:00",
+      "source": null,
+      "boundary_hash": null
+    }
+  },
+  "land_cover": {
+    "year": 2024,
+    "path": "goat_island_outputs\\land_cover\\land_cover_2024.tif",
+    "asset": "projects/sat-io/open-datasets/USGS/ANNUAL_NLCD/LANDCOVER",
+    "product_metadata": {
+      "color_interpretation": "Palette",
+      "data_type": "Byte",
+      "inferred_kind": "categorical",
+      "num_bands": 1,
+      "product": "Annual NLCD Land Cover",
+      "version": "C1V2",
+      "xsize": 160000,
+      "year": 2024,
+      "ysize": 105000
+    },
+    "resampling": "nearest",
+    "rules": [
+      {
+        "class_code": 11,
+        "class_name": "Open water",
+        "provisional_score": 1.0,
+        "rationale": "High caution for terrestrial access interventions"
+      },
+      {
+        "class_code": 12,
+        "class_name": "Perennial ice/snow",
+        "provisional_score": 1.0,
+        "rationale": "High caution; unexpected locally and requires review"
+      },
+      {
+        "class_code": 21,
+        "class_name": "Developed, open space",
+        "provisional_score": 0.3,
+        "rationale": "Already modified, potentially vegetated surface"
+      },
+      {
+        "class_code": 22,
+        "class_name": "Developed, low intensity",
+        "provisional_score": 0.2,
+        "rationale": "Existing development; other site constraints still apply"
+      },
+      {
+        "class_code": 23,
+        "class_name": "Developed, medium intensity",
+        "provisional_score": 0.15,
+        "rationale": "Existing development; other site constraints still apply"
+      },
+      {
+        "class_code": 24,
+        "class_name": "Developed, high intensity",
+        "provisional_score": 0.1,
+        "rationale": "Existing development; other site constraints still apply"
+      },
+      {
+        "class_code": 31,
+        "class_name": "Barren land",
+        "provisional_score": 0.3,
+        "rationale": "Unvegetated surface; condition requires local inspection"
+      },
+      {
+        "class_code": 41,
+        "class_name": "Deciduous forest",
+        "provisional_score": 0.8,
+        "rationale": "Caution about vegetation clearance"
+      },
+      {
+        "class_code": 42,
+        "class_name": "Evergreen forest",
+        "provisional_score": 0.8,
+        "rationale": "Caution about vegetation clearance"
+      },
+      {
+        "class_code": 43,
+        "class_name": "Mixed forest",
+        "provisional_score": 0.8,
+        "rationale": "Caution about vegetation clearance"
+      },
+      {
+        "class_code": 52,
+        "class_name": "Shrub/scrub",
+        "provisional_score": 0.6,
+        "rationale": "Potential vegetation disturbance"
+      },
+      {
+        "class_code": 71,
+        "class_name": "Grassland/herbaceous",
+        "provisional_score": 0.5,
+        "rationale": "Potential vegetation disturbance; habitat quality unmeasured"
+      },
+      {
+        "class_code": 81,
+        "class_name": "Pasture/hay",
+        "provisional_score": 0.4,
+        "rationale": "Managed vegetated cover; inspect existing use"
+      },
+      {
+        "class_code": 82,
+        "class_name": "Cultivated crops",
+        "provisional_score": 0.4,
+        "rationale": "Managed vegetated cover; inspect existing use"
+      },
+      {
+        "class_code": 90,
+        "class_name": "Woody wetlands",
+        "provisional_score": 1.0,
+        "rationale": "High screening caution for disturbance to mapped wetland cover"
+      },
+      {
+        "class_code": 95,
+        "class_name": "Emergent herbaceous wetlands",
+        "provisional_score": 1.0,
+        "rationale": "High screening caution for disturbance to mapped wetland cover"
+      }
+    ]
+  },
+  "scenarios": {
+    "baseline": {
+      "ndvi": 0.15,
+      "land_cover": 0.25,
+      "flood": 0.3,
+      "low_elevation": 0.1,
+      "slope": 0.2
+    },
+    "flood_emphasis": {
+      "ndvi": 0.1,
+      "land_cover": 0.2,
+      "flood": 0.5,
+      "low_elevation": 0.05,
+      "slope": 0.15
+    },
+    "terrain_emphasis": {
+      "ndvi": 0.1,
+      "land_cover": 0.2,
+      "flood": 0.25,
+      "low_elevation": 0.15,
+      "slope": 0.3
+    }
+  },
+  "note": "Provisional disturbance/physical-constraint screening, not validated ecological quality or final access suitability. Unknown inputs excluded."
+}

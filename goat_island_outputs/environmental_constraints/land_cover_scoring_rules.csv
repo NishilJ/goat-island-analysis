@@ -1,0 +1,17 @@
+class_code,class_name,provisional_score,rationale
+11,Open water,1.0,High caution for terrestrial access interventions
+12,Perennial ice/snow,1.0,High caution; unexpected locally and requires review
+21,"Developed, open space",0.3,"Already modified, potentially vegetated surface"
+22,"Developed, low intensity",0.2,Existing development; other site constraints still apply
+23,"Developed, medium intensity",0.15,Existing development; other site constraints still apply
+24,"Developed, high intensity",0.1,Existing development; other site constraints still apply
+31,Barren land,0.3,Unvegetated surface; condition requires local inspection
+41,Deciduous forest,0.8,Caution about vegetation clearance
+42,Evergreen forest,0.8,Caution about vegetation clearance
+43,Mixed forest,0.8,Caution about vegetation clearance
+52,Shrub/scrub,0.6,Potential vegetation disturbance
+71,Grassland/herbaceous,0.5,Potential vegetation disturbance; habitat quality unmeasured
+81,Pasture/hay,0.4,Managed vegetated cover; inspect existing use
+82,Cultivated crops,0.4,Managed vegetated cover; inspect existing use
+90,Woody wetlands,1.0,High screening caution for disturbance to mapped wetland cover
+95,Emergent herbaceous wetlands,1.0,High screening caution for disturbance to mapped wetland cover
