@@ -1,0 +1,12 @@
+{
+  "added_forest_rows": 240,
+  "forest_training_rows": 481,
+  "wetland_training_rows": 480,
+  "holdout_unchanged": true,
+  "old_forest_f1": 0.6697459584295612,
+  "new_forest_f1": 0.7515151515151515,
+  "old_wetland_f1": 0.8461538461538461,
+  "new_wetland_f1": 0.8588661037394452,
+  "old_full_macro_f1": 0.7568847036959556,
+  "new_full_macro_f1": 0.7770038375210381
+}

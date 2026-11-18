@@ -1,0 +1,22 @@
+{
+  "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Confidence-Native_conus_year_data/wcs?service=WCS&request=GetCoverage&version=1.0.0&coverage=mrlc_Land-Cover-Confidence-Native_conus_year_data%3ALand-Cover-Confidence-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=92265%2C1103775%2C139305%2C1160235&width=1568&height=1882&format=GeoTIFF&time=2022-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+  "release": "Collection 1.2",
+  "year": 2022,
+  "request_signature": "c30f8caf101d9c94d6695106469b41645530966dad8c337e1a77a25a4e7acac5",
+  "sha256": "99cf3260b91c62c9b76015e89f593ac3d42cb89a1fac372d580970accd7edac0",
+  "retrieved_utc": "2026-11-18T18:51:29.745129+00:00",
+  "params": {
+    "service": "WCS",
+    "request": "GetCoverage",
+    "version": "1.0.0",
+    "coverage": "mrlc_Land-Cover-Confidence-Native_conus_year_data:Land-Cover-Confidence-Native_conus_year_data",
+    "crs": "EPSG:5070",
+    "response_crs": "EPSG:5070",
+    "bbox": "92265,1103775,139305,1160235",
+    "width": 1568,
+    "height": 1882,
+    "format": "GeoTIFF",
+    "time": "2022-01-01T00:00:00.000Z",
+    "interpolation": "nearest neighbor"
+  }
+}

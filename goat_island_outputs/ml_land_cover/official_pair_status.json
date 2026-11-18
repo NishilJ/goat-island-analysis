@@ -1,0 +1,8 @@
+{
+  "status": "Full eight-active-class confidence-80 workflow rerun after forest balancing; source release verified and holdout unchanged",
+  "training_forest": 481,
+  "training_wetland": 480,
+  "confidence_threshold": 80,
+  "comparison": "forest_balance_comparison.json",
+  "note": "Evaluation is NLCD weak-label agreement, not independent 2 m accuracy."
+}

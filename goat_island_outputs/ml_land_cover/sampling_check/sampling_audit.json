@@ -1,0 +1,47 @@
+[
+  {
+    "region": "north_texas",
+    "split": "train",
+    "samples": 181,
+    "counts": {
+      "90": 120,
+      "41": 61
+    }
+  },
+  {
+    "region": "ne_texas",
+    "split": "train",
+    "samples": 180,
+    "counts": {
+      "90": 120,
+      "41": 60
+    }
+  },
+  {
+    "region": "north_texas_holdout",
+    "split": "test",
+    "samples": 82,
+    "counts": {
+      "41": 79,
+      "90": 3
+    }
+  },
+  {
+    "region": "red_river_holdout",
+    "split": "test",
+    "samples": 127,
+    "counts": {
+      "90": 120,
+      "41": 7
+    }
+  },
+  {
+    "region": "missouri",
+    "split": "test",
+    "samples": 163,
+    "counts": {
+      "90": 100,
+      "41": 63
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "bands": [
+    "red",
+    "green",
+    "blue",
+    "nir",
+    "N_contrast",
+    "N_ent",
+    "N_idm",
+    "naip_ndvi",
+    "winter_evi",
+    "winter_ndmi",
+    "winter_swir1",
+    "winter_swir2",
+    "summer_evi",
+    "summer_ndmi",
+    "summer_swir1",
+    "summer_swir2",
+    "relative_elevation",
+    "slope"
+  ],
+  "scale_m": 2,
+  "width": 2267,
+  "height": 1278,
+  "tile_pixels": 512,
+  "signature": "500f0584b5cf4d95"
+}

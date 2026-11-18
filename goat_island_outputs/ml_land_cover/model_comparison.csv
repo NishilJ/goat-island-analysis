@@ -1,0 +1,3 @@
+model,training_rows,holdout_rows,macro_f1
+full_confidence80,2832,2708,0.7770038375210381
+naip_only_confidence80,2832,2708,0.47155945735660776

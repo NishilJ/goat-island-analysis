@@ -1,0 +1,16 @@
+region,class,threshold,eligible_cells
+red_river_holdout,11,80,5372
+red_river_holdout,21,80,0
+red_river_holdout,22,80,0
+red_river_holdout,23,80,29
+red_river_holdout,24,80,501
+red_river_holdout,31,80,0
+red_river_holdout,41,80,7
+red_river_holdout,42,80,1176
+red_river_holdout,43,80,0
+red_river_holdout,52,80,0
+red_river_holdout,71,80,0
+red_river_holdout,81,80,329240
+red_river_holdout,82,80,0
+red_river_holdout,90,80,293542
+red_river_holdout,95,80,0

@@ -1,0 +1,4 @@
+region,rows,macro_f1_all_active_classes,forest_reference_rows,wetland_reference_rows,forest_f1,wetland_f1
+missouri,698,0.5111753177977383,123,151,0.6929824561403509,0.7760252365930599
+north_texas_holdout,1036,0.608603042221616,139,3,0.831275720164609,0.15
+red_river_holdout,974,0.5616272697163165,7,240,0.5,0.9745762711864406
