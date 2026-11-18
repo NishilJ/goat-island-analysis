@@ -9,7 +9,7 @@
     "65146334010100000",
     "65146334010140000"
   ],
-  "run_utc": "2026-11-02T06:29:05.142152+00:00",
+  "run_utc": "2026-11-04T16:37:31.751352+00:00",
   "grid_resolution_m": 30.0,
   "grid_crs": "EPSG:26914",
   "grid_transform": [
@@ -40,6 +40,11 @@
       "run_utc": "2026-11-02T05:36:28.300780+00:00",
       "source": null,
       "boundary_hash": null
+    },
+    "evi": {
+      "run_utc": "2026-11-04T16:14:16.776264+00:00",
+      "source": "COPERNICUS/S2_SR_HARMONIZED",
+      "boundary_hash": "48fa0c7855e7dd7b1d35b5856c1aafdcb88d221630bc05c4dc5a17cb1ff306fe"
     }
   },
   "land_cover": {
@@ -157,12 +162,25 @@
       }
     ]
   },
+  "vegetation_inputs": {
+    "baseline": {
+      "index": "EVI",
+      "path": "goat_island_outputs\\vegetation\\evi_2026_10m.tif",
+      "resampling": "average",
+      "normalization": "min\u2013max across common valid 30 m cells",
+      "weight": 0.2
+    },
+    "alternatives": {
+      "index": "NDVI",
+      "note": "Existing flood- and terrain-emphasis scenarios retain NDVI; comparisons change both weights and the vegetation index."
+    }
+  },
   "scenarios": {
     "baseline": {
-      "ndvi": 0.15,
+      "evi": 0.2,
       "land_cover": 0.25,
       "flood": 0.3,
-      "low_elevation": 0.1,
+      "low_elevation": 0.05,
       "slope": 0.2
     },
     "flood_emphasis": {
